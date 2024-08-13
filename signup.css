@@ -1,0 +1,63 @@
+body {
+  /* background-color: rgb(221, 191, 154);
+  text-align: center; */
+  background-image: url(img/ocean-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.signup-form {
+  width: 30%;
+  height: 330px;
+  margin: auto;
+  margin-top: 250px;
+  background: transparent;
+  padding: 20px;
+  box-shadow: 5px 5px 10px 5px black;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="re-password"] {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid rgb(235, 100, 11);
+}
+
+.button {
+  background-color: #308533;
+  color: #f3f2f2;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  background-color: #053608;
+}
+
+.login {
+  text-align: center;
+  font-weight: 600;
+}
+
+a {
+  color: #af2e0d;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
