@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Img-Card</title>
+    <style>
+      body {
+        background-color: #faebd7;
+        border: 9px groove black;
+      }
+
+      h1{
+        text-align: center;
+        font-size: 39px;
+        padding: 15px;
+        background-color: #eeb2ee;
+      }
+      
+      .container,
+      .container-1,
+      .container-2 {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 100px;
+      }
+
+      img {
+        width: 400px;
+        height: 240px;
+        border-radius: 6px;
+      }
+
+      .card-1 {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0px 8px 15px 15px #00000099;
+      }
+
+      .card-2 {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0px 9px 36px #fc9c17e8;
+      }
+
+      .card-3 {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0px 0px 0px 3px #ee82ee, 0px 0px 0px 6px #4b0082,
+          0px 0px 0px 9px #0000ff, 0px 0px 0px 12px #008000,
+          0px 0px 0px 15px #ffff00, 0px 0px 0px 18px #ff0000;
+      }
+
+      .card-4 {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 5px 5px 6px 2px #a1c7e9, -5px -5px 6px 1px #9e6e6e80;
+      }
+
+      .card-5 {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 5px 5px #b75adf, 10px 10px #5a0994, 15px 15px #28285f,
+          20px 20px #2deb2d, 25px 25px #e40909;
+      }
+
+      .card-6 {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border-radius: 6px;
+        box-shadow: 0px 0px 8px 5px #f07e83 inset,
+          0px 0px 10px 10px #5a0994 inset, -8px -8px 5px #f07e83,
+          -10px -10px 10px #5a0994;
+      }
+
+      .card-7 {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+        border-radius: 6px;
+        margin-bottom: 50px;
+        animation: myimg 10s ease-in-out infinite;
+      }
+
+      @keyframes myimg {
+        0% {
+          box-shadow: 0 0 8px 3px #ee82ee;
+        }
+        20% {
+          border-bottom-left-radius: 10%;
+          border-bottom-right-radius: 10%;
+          box-shadow: 0 0 8px 6px #4b0082;
+        }
+        40% {
+          border-bottom-left-radius: 10%;
+          border-bottom-right-radius: 10%;
+          box-shadow: 0 0 8px 9px #0000ff;
+        }
+        60% {
+          border-bottom-left-radius: 10%;
+          border-bottom-right-radius: 10%;
+          box-shadow: 0 0 8px 12px #008000;
+        }
+        80% {
+          border-bottom-left-radius: 10%;
+          border-bottom-right-radius: 10%;
+          box-shadow: 0 0 8px 15px #ffff00;
+        }
+        100% {
+          border-bottom-left-radius: 10%;
+          border-bottom-right-radius: 10%;
+          box-shadow: 0 0 8px 18px #ff0000;
+        }
+      }
+
+      .content {
+        padding: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Cards</h1>
+    <div class="container">
+      <div class="card-1">
+        <img src="img/adventure.png" alt="scenary" />
+        <div class="content">Para-Gliding</div>
+      </div>
+      <div class="card-2">
+        <img src="img/andhaman.png" alt="scenary" />
+        <div class="content">Beauty of Andhaman</div>
+      </div>
+      <div class="card-3">
+        <img src="img/dalhouise.png" alt="scenary" />
+        <div class="content">Satdhara Falls</div>
+      </div>
+    </div>
+    <div class="container-1">
+      <div class="card-4">
+        <img src="img/flight.png" alt="scenary" />
+        <div class="content">Flight Control</div>
+      </div>
+      <div class="card-5">
+        <img src="img/ladak.png" alt="scenary" />
+        <div class="content">Ladakh Bike Trip</div>
+      </div>
+      <div class="card-6">
+        <img src="Assam-1.png" alt="scenary" />
+        <div class="content">Scenaries of Assam</div>
+      </div>
+    </div>
+    <div class="container-2">
+      <div class="card-7">
+        <img src="img/t1.jpg" alt="scenary" />
+        <div class="content">Alappuzha Backwaters</div>
+      </div>
+    </div>
+  </body>
+</html>
