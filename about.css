@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.navbar .links {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.navbar .links li {
+  margin-right: 35px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #ee602c;
+}
+
+.navbar .links a.login {
+  background-color: #ee602c;
+  padding: 5px 10px;
+  color: rgb(20, 20, 20);
+}
+
+.navbar .links a:hover {
+  border-bottom: 4px solid #ff0000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+h2{
+  text-align: center;
+  font-size: 35px;
+}
+
+.container{
+  display: flex;
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+.image{
+  width: 40%;
+}
+
+img{
+  width: 450px;
+  height: auto;
+  margin-left: 100px;
+  transition: 1s;
+}
+
+img:hover{
+  border-radius: 15px;
+  transform: scale(0.9);
+}
+
+.mission{
+  width: 35%;
+  margin-top: 32px;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.container-1{
+  display: flex;
+  background-color: rgb(247, 212, 166);
+  padding: 15px;
+}
+
+.history{
+  width: 35%;
+  margin-left: 100px;
+  margin-top: 32px;
+  font-size: 24px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.ul-links{
+  background-color: bisque;
+  padding: 10px;
+}
+
+.link{
+  font-size: 28px;
+  line-height: 1.8;
+  margin-left: 740px;
+}
+
+.brands{
+  display: flex;
+  justify-content: center;
+  margin-top: 52px;
+}
+
+.img {
+  width: 180px;
+  height: auto;
+}
+
+footer {
+  background: black;
+  color: #f4ba94;
+  text-align: center;
+  font-size: 19px;
+  padding: 15px;
+  bottom: 0;
+  margin-top: 100px;
+}

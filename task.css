@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.navbar .links {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  font-size: 18px;
+  margin-right: 50px;
+}
+
+.navbar .links li {
+  margin-right: 35px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #ee602c;
+}
+
+.navbar .links a.login {
+  background-color: #ee602c;
+  padding: 5px 10px;
+  color: rgb(20, 20, 20);
+}
+
+.navbar .links a:hover {
+  border-bottom: 4px solid #ff0000;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.content {
+  text-align: center;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+
+.orange {
+  margin-right: 90%;
+  padding: 5px;
+  background-color: #ff4500;
+}
+
+.para-1 {
+  font-size: 48px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 9px;
+}
+
+.small {
+  margin-right: 80%;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #fc0303;
+  color: #f3f2f2;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 85%;
+}
+
+.btn:hover {
+  background-color: #cc2823;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  color: #ee602c;
+  margin-top: 60px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 80px;
+}
+
+img {
+  width: 300px;
+  height: 240px;
+  border-radius: 6px;
+}
+
+.card-1 {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 5px #c4b8b899;
+}
+
+.card-2 {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 5px #c4b8b899;
+}
+
+.card-3 {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 5px #c4b8b899;
+}
+
+.card-4 {
+  width: 300px;
+  height: auto;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 5px #c4b8b899;
+}
+
+.container p {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+footer {
+  background: black;
+  color: #f4ba94;
+  text-align: center;
+  font-size: 19px;
+  padding: 15px;
+  bottom: 0;
+  margin-top: 118px;
+}
